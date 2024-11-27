@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #220d1f; /* Fundo roxo escuro */
+    
+    color: #ecccfe; /* Texto rosa claro */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o container ocupe toda a altura da viewport */
+    background-color: #220d1f;
+  }
+  
+.form-container {
+    background-color: #da94b0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona uma leve sombra para realçar o formulário */
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ecccfe; /* Fundo rosa claro para inputs e botão */
+    color: #220d1f; /* Texto roxo escuro */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #da94b0; /* Cor do botão ao passar o mouse */
+}
